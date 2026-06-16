@@ -1,0 +1,18 @@
+# 환경변수 / API 키 (절대 커밋 금지)
+.env
+.env.*
+*.key
+secrets.*
+
+# Office 임시/잠금 파일
+~$*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
